@@ -1,0 +1,43 @@
+body {
+    font: 13px/1.4 'Lucida Grande', Verdana, sans-serif;
+}
+
+header ul {
+    border-bottom: 1px solid #444;
+    overflow: hidden;
+    background: #999;
+}
+header ul li {
+    float: left;
+    list-style: none;
+}
+header ul li a {
+    padding: 6px 20px;
+    border-right: 1px solid #444;
+    color: #fff;
+    background: #555;
+    font-size: .9em;
+    font-weight: bold;
+    text-decoration: none;
+}
+header ul li a:hover {
+    background-color: #444;
+}
+
+header h1 {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: #555;
+    background: #eee;
+}
+
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 1.3em;
+}
