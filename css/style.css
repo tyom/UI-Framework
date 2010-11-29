@@ -224,3 +224,16 @@ p strong {
     -webkit-border-bottom-right-radius: 4px;
     margin: 0;
 }
+
+a.button.disabled, a.button.disabled:hover, a.button.disabled:active {
+    color: rgba(0,0,0,.20);
+    background: rgba(255,255,255,.3);
+    border-color: rgba(0,0,0,.3);
+    cursor: default;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    text-shadow: 1px 1px 0 rgba(255,255,255,.4);
+}
+.button.disabled i {
+    opacity: .4;
+}
