@@ -80,7 +80,6 @@ p {
     background-color: #fafafa;
     border-color: #222;
     border-color: rgba(0,0,0,.6);
-    text-shadow: 0 0 1px rgba(0,0,0,.7);
     z-index: 10;
 }
 .button:active {
