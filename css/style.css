@@ -72,6 +72,7 @@ p {
     text-shadow: 0 0 1px rgba(0,0,0,.3);
     overflow: hidden;
     outline: none;
+    line-height: 16px;
 /*    -webkit-background-clip: padding-box;*/
 }
 .button:hover, .button:focus {
@@ -92,7 +93,7 @@ p {
 
 .button.mini {
     font: bold 10px 'Lucida Grande';
-    padding: 3px 6px;
+    padding: 4px 8px;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -122,10 +123,9 @@ p {
     -webkit-border-radius: 10px;
 }
 .button.icon {
-    line-height: 16px;
     padding-left: 28px;
 }
-.button.icon.mini { padding-left: 22px }
+.button.icon.mini { padding-left: 21px }
     .button.icon.mini i { left: 3px }
 .button.icon.small { padding-left: 26px }
     .button.icon.small i { left: 5px }
@@ -200,18 +200,25 @@ p {
 
 p strong {
     padding: 5px;
-    display: inline-block;
     background: #ccc;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
-    -moz-box-shadow: inset 1px 1px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: inset 1px 1px 0 rgba(0,0,0,.1), inset -1px -1px 0 rgba(255,255,255,.9);
+    -webkit-box-shadow: inset 1px 1px 0 rgba(0,0,0,.1), inset -1px -1px 0 rgba(255,255,255,.9);
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.panel {
+    overflow: hidden;
 }
 
 .joined .button {
     -webkit-background-clip: padding-box;
-    margin-right: -5px;
+    margin-right: -1px;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
+    float: left;
 }
 .joined .button:first-child {
     -moz-border-radius: 4px 0 0 4px;
@@ -228,7 +235,7 @@ p strong {
 a.button.disabled, a.button.disabled:hover, a.button.disabled:active {
     color: rgba(0,0,0,.20);
     background: rgba(255,255,255,.3);
-    border-color: rgba(0,0,0,.3);
+    border-color: rgba(0,0,0,.2);
     cursor: default;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
